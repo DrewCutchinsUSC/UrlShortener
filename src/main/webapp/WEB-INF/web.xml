@@ -4,4 +4,22 @@
 
 <web-app>
   <display-name>UrlShortener</display-name>
+  
+  <servlet>
+    <servlet-name>url</servlet-name>
+    <servlet-class>csci310.urlshortener.api.UrlServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>url</servlet-name>
+    <url-pattern>/api/url</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>redirect</servlet-name>
+    <servlet-class>csci310.urlshortener.api.RedirectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>redirect</servlet-name>
+    <url-pattern>/link/*</url-pattern>
+  </servlet-mapping>
 </web-app>

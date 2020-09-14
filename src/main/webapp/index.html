@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Quick Url</title>
+</head>
+<body>
+    <h1 id="title">Quick Url</h1>
+    <div id="page">
+        <p>Welcome to Quick Url! Enter a url to get a shortened url.</p>
+        <form id="url-form" onsubmit="return submitUrl()">
+            <input type="text" name="urlInput" id="url-input" placeholder="Your URL here...">
+            <button type="submit" id="submit-btn"><b>Get URL</b></button>
+        </form>
+        <p id="url-result"></p>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

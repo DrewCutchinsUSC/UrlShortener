@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(43, 43, 44);
+    color: #39393A;
+}
+
+a{
+    color: #FF8552;
+}
+
+h1{
+    font-size: 400%;
+    margin-left: 30px;
+    color: #85FFC7;
+}
+
+#page{
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(247, 245, 245);
+}
+
+#url-input{
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+#submit-btn{
+    height: 40px;
+    background-color: #297373;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+}

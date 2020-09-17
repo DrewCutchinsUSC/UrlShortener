@@ -12,4 +12,14 @@
   <servlet-name>url</servlet-name>
   <url-pattern>/api/url</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>redirect</servlet-name>
+	  <servlet-class>csci310.urlshortener.UrlRedirectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>redirect</servlet-name>
+  	<url-pattern>/link/*</url-pattern>
+  </servlet-mapping>
+  
 </web-app>

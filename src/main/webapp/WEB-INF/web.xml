@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>UrlShortener</display-name>
+  <servlet>
+	  <servlet-name>url</servlet-name>
+	  <servlet-class>csci310.urlshortener.UrlServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>url</servlet-name>
+  <url-pattern>/api/url</url-pattern>
+  </servlet-mapping>
 </web-app>
